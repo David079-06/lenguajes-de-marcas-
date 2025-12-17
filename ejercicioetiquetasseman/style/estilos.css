@@ -1,0 +1,51 @@
+.header{
+float:none;
+width: 100%;
+clear: left;
+}
+.logo{
+background-color: blueviolet;
+color: rgb(179, 8, 147);
+width: 20%;
+float:left;
+}
+.nav{
+background-color: aqua;
+float:right;
+
+width:60%
+
+}
+.div1header{
+float: left;
+width:60%;
+}
+.div2header{
+width:auto;
+float:right
+}
+.div3header{
+float: right;
+}
+.main{
+background-color: rgb(223, 194, 11);
+float:none;
+}
+.divmain {
+background-color: orange;
+width:50%;
+}
+.parrafomain1 {
+color: navajowhite;
+width:10%;
+float:right
+}
+.footer{
+    background-color: green;
+   
+}
+.parrafofooter{
+    background-color: greenyellow;
+    width:30%;
+
+}

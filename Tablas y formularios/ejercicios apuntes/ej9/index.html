@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+       <select name="select" size="1">
+            <option value="opcion1"> Casa individual</option>
+            <option value="opcion2"> Piso</option>
+            <option value="opcion3">Adosado </option>
+        </select> 
+        <br>
+        <label form="elemento1">Calle:</label> 
+        <input id="elemento1" type="text" name="Calle" required><br>
+        <label form="elemento2">Número:</label> 
+        <input id="elemento2" type="number" name="Numero" min="1" max="250" required ><br>
+        <label form="elemento3">Piso:</label> 
+        <input id="elemento3," type="number" name="Piso"   min="1" max="10">
+        <label form="elemento4">Puerta:</label> 
+        <input id="elemento4" type="number" name="Puerta" min="1" max="4" ><br>
+        <label form="elemento4">Puerta:</label> 
+        <input id="elemento4" type="email" min="1" max="4" ><br>
+        <label form="elemento6">Telñefono:</label> 
+        <input id="elemento6" type="number" pattern="\d{600000000,699999999}"   ><br>
+    </form>
+</body>
+</html>

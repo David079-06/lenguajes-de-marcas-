@@ -1,0 +1,25 @@
+#parrafoprincipal {
+width: 80%;
+text-align: center;
+margin: auto;
+}
+#parrafo1 {
+background-color: rgb(221, 80, 24);
+width: 30%;
+float: right;
+}
+#parrafo2{
+background-color: rgb(255, 24, 197);
+width: 30%;
+float: left;
+}
+#parrafo3 {
+background-color: rgb(49, 3, 253);
+clear: both;
+
+text-align: center;
+}
+h1 {
+width: 100%;
+background-color: aquamarine;
+}

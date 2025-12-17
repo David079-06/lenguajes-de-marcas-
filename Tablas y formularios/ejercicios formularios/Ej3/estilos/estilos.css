@@ -1,0 +1,16 @@
+
+.divinicial {
+    text-align:center ;
+    border: 2px dotted rgb(241, 238, 33);
+    width: 60%;
+    margin: auto;
+}
+.divfinal {
+    border: 2px dotted rgb(29, 5, 240);
+    width: 55%;
+    margin: auto;
+}
+p,h4{
+   margin: 1%;
+   
+}

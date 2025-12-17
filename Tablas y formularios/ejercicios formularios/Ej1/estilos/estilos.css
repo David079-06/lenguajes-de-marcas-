@@ -1,0 +1,14 @@
+.divformulario{
+border: 2px solid blue;
+text-align: center;
+margin: auto;
+width: 25%;
+padding: 3px;
+
+}
+h1{
+    text-align:center;
+}
+#elemento3{
+width: 40%;
+}

@@ -1,0 +1,23 @@
+.resaltar1 {
+color: rgb(253, 147, 8);
+}
+.resaltar2{
+color: red;
+}
+.azul{
+ background-color: rgb(1, 132, 255);   
+ text-align: center;
+}
+.verde {
+    background-color: aquamarine;
+    border:2px solid black;
+    float: left;
+    width:55%;
+}
+.verde2 {
+    background-color: aquamarine;
+    border:2px solid black;
+    margin:0%;
+    float:right;
+    width: 38%
+}

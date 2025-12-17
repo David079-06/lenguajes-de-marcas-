@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <form method="post"> 
+      <h1>Introducir datos del cliente</h1> 
+
+      Nombre: <input type="text" min="1" max="12" > Apellidos: <input type="text" min="1" max="25" /><br/> 
+
+      Usuario: <input type="text" name="usuario" min="1" max="12" /><br/>
+      
+      Contraseña: <input type="password" name="contraseña" min="13" max="20" /><br />
+       Socio. <input type="checkbox" name="socio" checked /><br/>
+      SEXO: <input type="radio" value="H" name="sexo" />
+            <input type="radio" value="M" name="sexo" /><br/>
+        Aficiones:<br/>
+          <input type="checkbox" name="Deportes" checked /> Deportes<br/>
+          <input type="checkbox" name="Cine" checked /> Cine <br/>
+          <input type="checkbox" name="Lectura" checked />Lectura <br/> 
+          <input type="hidden" value="M" name="sexo" /><br/>
+        Subir foto: <button  type="button">Seleccionar archivo </button> 
+        Ningún archivo seleccionado <br/> <br/> 
+        
+        <button type="button">Enviar</button> <button  type="button">Limpiar </button> <button onclick="window.close();" type="button">Cerrar </button> 
+        
+    </form>
+</div>
+
+</body>
+</html>

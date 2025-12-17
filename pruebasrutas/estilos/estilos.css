@@ -1,0 +1,11 @@
+h1 {
+  color: yellowgreen;
+  background-color: aqua;
+}
+#fondoverdetextoamarillo {
+  color: rgb(231, 166, 25);
+  background-color: green;
+}
+.borderojo {
+   border: 2px black ;
+}
