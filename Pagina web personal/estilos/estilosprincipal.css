@@ -1,0 +1,36 @@
+header{
+height: 150px;
+width: 100%;
+background-color: brown;
+position:fixed
+}
+.section1{
+    height:700px;
+    width: 25%;
+    background-color: rgb(190, 98, 37);
+   float:left;
+   margin-top: 150px;
+}
+.section2{
+    height:700px;
+    width: 25%;
+    background-color: rgb(16, 241, 117);
+    float:right;
+      margin-top: 150px;
+}
+article{
+    height:700px;
+    width: 50%;
+    background-color: rgb(255, 7, 61);
+    float:left;
+      margin-top: 150px;
+}
+main {
+    height:1200px;
+    float:none
+   
+}
+footer {
+    height:150px;
+    background-color: aquamarine;
+}
