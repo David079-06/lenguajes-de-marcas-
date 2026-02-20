@@ -1,0 +1,64 @@
+
+main {
+    padding: 50px 20px;
+}
+.registro {
+    width: 50%;            
+    margin: auto;         
+    background-color: #1e293b; 
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #334155;
+    color: white;
+}
+h2 {
+    text-align: center;
+    color: #38bdf8;
+    margin-bottom: 25px;
+}
+p {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.enviar {
+    background-color: #38bdf8;
+    color: white;
+}
+
+.borrar {
+    background-color: #334155;
+    color: white;
+}
+
+label {
+    display: block;
+    
+    color: #ffffff;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #334155;
+    border-radius: 8px;
+   background-color: #334155;
+    color: white;
+}
+.cancelar {
+    background-color: #809dc7;
+    
+    color: white;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #0f172a;
+}
