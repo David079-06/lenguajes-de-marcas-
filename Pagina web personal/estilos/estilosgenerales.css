@@ -1,8 +1,38 @@
-body{
-    margin:auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f172a; 
+    color: #e2e8f0;         
+    font-family: 'Segoe UI', Arial, sans-serif;
     text-align: center;
 }
-h1{
-    margin: auto;
-    padding-top: 20px;
+
+
+header {
+    position: sticky;
+    top: 0;
+    background: #0f172a;
+    padding: 25px;
+    border-bottom: 2px solid #38bdf8;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+header  {
+    color: #38bdf8;
+    letter-spacing: 2px;
+}
+
+
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #1e293b;
+    padding: 15px;
+    border-top: 1px solid #334155;
+    color: #94a3b8;
+    font-size: 10px;
 }

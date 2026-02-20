@@ -1,0 +1,83 @@
+
+.articulos {
+    padding: 40px;
+    text-align: center;
+}
+
+
+article {
+    float: left;            
+    width: 30%;            
+    margin: 1.5%;           
+    background-color: #415679;
+    padding: 20px;
+    border-radius: 20px;   
+    border: 1px solid #334155;
+    box-sizing: border-box; 
+    transition: all 0.4s ease; 
+}
+
+article:hover {
+    transform: translateY(-3px);
+    border-color: #38bdf8;
+    box-shadow: 0 10px 25px rgba(56, 189, 248, 0.2);
+}
+
+
+h3 {
+    color: #38bdf8;
+    margin: 15px 0 10px 0;
+}
+
+video {
+    width: 100%;
+    height: 180px;
+    background-color: #0f172a;
+    border-radius: 10px;
+    display: block;
+}
+
+.volverPrincipal{
+    margin: 50px 0;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #ffffff;
+    color: #0f172a;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.volverPrincipal:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 
+                0 0 40px rgba(56, 189, 248, 0.6);
+   
+}
+
+.anuncios {
+    clear: both; 
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+aside{
+    flex: 1;
+    height: 250px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #334155;
+    margin: 0 10px;
+}
+
+ iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+   
+}
+
